@@ -8,10 +8,10 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
 <distributionManagement>
-  <snapshotRepository>
+  <repository>
     <id>dd</id>
     <url>http://localhost:8081/content/repositories/dd</url>
-  </snapshotRepository>
+  </repository>
 </distributionManagement>
   <dependencies>
     <dependency>
@@ -21,10 +21,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  distributionManagement>
-  <snapshotRepository>
-    <id>dd</id>
-    <url>http://localhost:8081/content/repositories/dd</url>
-  </snapshotRepository>
+  
 
 </project>
