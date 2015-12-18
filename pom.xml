@@ -15,4 +15,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  distributionManagement>
+  <snapshotRepository>
+    <id>dd</id>
+    <url>http://172.30.1.175:8081/content/repositories/dd</url>
+  </snapshotRepository>
+
 </project>
