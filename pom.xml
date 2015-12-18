@@ -21,4 +21,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  distributionManagement>
+  <snapshotRepository>
+    <id>dd</id>
+    <url>http://localhost:8081/content/repositories/dd</url>
+  </snapshotRepository>
+
 </project>
